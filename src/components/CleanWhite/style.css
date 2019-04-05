@@ -1,0 +1,90 @@
+:root{
+  --background: #eeeeee;
+  --light-3: #e1e8ef;
+  --light-2: #ebeef3;
+  --light-1: #f9fafc;
+  --dark-3: #262626;
+  --dark-2:#919394;
+  --dark-1: #ebeef3;
+  --grayscale: grayscale(100%); 
+  --bgTrasparant: rgba(235,238,243,0.77);
+  --bgTrasparant-full: rgba(235,238,243,0.0);
+}
+
+
+body, .container-fluid{
+  background: var(--background);
+}
+
+.index-at-top{
+  position: relative;
+  z-index: 50;
+}
+
+h1{
+  font-family: sans-serif;
+  font-size: 2.5rem;
+  font-weight: 100;
+  letter-spacing: -2px;
+  color: #666666;
+}
+
+h2{
+  font-family: sans-serif;
+  font-size: 2rem;
+  font-weight: 100;
+  text-transform: uppercase;
+}
+h3{
+  font-family: sans-serif;
+  font-size: 1.3rem;
+  font-weight: 100;
+  letter-spacing: 0.11rem;
+}
+h4{
+  font-family: sans-serif;
+  font-size: 1rem;
+  font-weight: 100;
+  letter-spacing: 0rem;
+  text-transform: uppercase;
+}
+p{
+  font-size: 1rem;
+  font-weight: 100;
+}
+button{
+  padding: 5px 50px;
+  background-color: var(--dark-2);
+  color: var(--dark-1);
+  font-size: 0.9rem;
+  font-weight: 100;
+}
+.read-all-button,
+a.read-all-button{
+  font-size: 0.9rem;
+  letter-spacing: 0.3rem;
+  font-weight: 100;
+  -webkit-align-self: flex-end;
+  -ms-flex-item-align: end;
+  align-self: flex-end;
+  text-decoration: none;
+  color: var(--dark-3);
+}
+
+a.read-all-button:hover{
+text-decoration: none;
+} 
+
+img{
+  filter: grayscale(100%);
+  border: 0.4rem solid #fff;
+  box-shadow: 1px 1px 4px #3333334f;
+}
+
+.fa, .fab, .fal, .far, .fas{
+  color: var(--dark-2);
+  text-shadow: 1px 1px 1px #555;
+}
+
+
+
