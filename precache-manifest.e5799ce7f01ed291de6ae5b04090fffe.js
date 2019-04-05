@@ -4,15 +4,15 @@ self.__precacheManifest = [
     "url": "/react-d8-lmmc/static/js/runtime~main.cd434208.js"
   },
   {
-    "revision": "1988873eb0c544ff8582",
-    "url": "/react-d8-lmmc/static/js/main.925e99f8.chunk.js"
+    "revision": "870eafc4b374ff4d1299",
+    "url": "/react-d8-lmmc/static/js/main.1d43732d.chunk.js"
   },
   {
     "revision": "fa7176aba72e1889f1d9",
     "url": "/react-d8-lmmc/static/js/2.d31592f1.chunk.js"
   },
   {
-    "revision": "1988873eb0c544ff8582",
+    "revision": "870eafc4b374ff4d1299",
     "url": "/react-d8-lmmc/static/css/main.5c90d147.chunk.css"
   },
   {
@@ -20,7 +20,7 @@ self.__precacheManifest = [
     "url": "/react-d8-lmmc/static/css/2.c6203fe3.chunk.css"
   },
   {
-    "revision": "1fca7688f57483f606adc57806ab2f5b",
+    "revision": "db93ba37167d08ce73eda55baaa96d91",
     "url": "/react-d8-lmmc/index.html"
   }
 ];
