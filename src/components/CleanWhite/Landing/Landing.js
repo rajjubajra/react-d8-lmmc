@@ -84,7 +84,5 @@ class Landing extends React.Component{
       </Pages> 
     )
   }
-
-
 }
 export default Landing;
